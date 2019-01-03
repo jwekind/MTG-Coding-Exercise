@@ -1,0 +1,46 @@
+body,h1
+{
+    font-family: Ariel, sans-serif;
+    font-size: smaller;
+}
+#header {
+    background: lightgrey;
+    font-family: "Arial Black";
+    font-size: large;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+#footer {
+    background: lightgrey;
+    font-family: "Arial Black";
+    font-size: medium;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.card{
+    width: 223px;
+    height:	410px;
+    border:	1px solid black;
+    margin-bottom: 12px;
+}
+img{
+    align: bottom;
+}
+
+.deck{
+    padding-top: 40px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 223px);
+    grid-template-rows: repeat(2, 410px);
+}
